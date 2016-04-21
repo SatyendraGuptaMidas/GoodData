@@ -1,0 +1,27 @@
+##Project path
+#Tue Mar 29 07:27:06 PDT 2016
+PROJECT=.
+
+
+#Tue Mar 29 07:27:06 PDT 2016
+mssql_username=GoodData
+mssql_server=70.42.3.239
+META_DIR=${PROJECT}/meta
+GDC_PROJECT_ID=j0pjb10ugs6jhbn0skdzubg2yaewjs3b
+DATA_TMP_DIR=${PROJECT}/data/tmp
+DATA_GOODDATA_DIR=${PROJECT}/data/gooddata
+mssql_password=Smoothambler10year
+schema=dbo
+MODEL_DIR=${PROJECT}/model
+TRANS_DIR=${PROJECT}/trans
+ads_password=Y4MyTEP54dbBdkJy
+DATA_SOURCE_DIR=${PROJECT}/data/source
+db_ep=enrollmentportal
+db_uc=universalcredentialing
+db_epr=ucent
+db_hs=hortyspringer
+GRAPH_DIR=${PROJECT}/graph
+ads_username=ps-etl+symplr@gooddata.com
+DATA_DIR=${PROJECT}/data
+DATA_TRANSFORM_DIR=${PROJECT}/data/transform
+name=value

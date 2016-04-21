@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="wenzhang" created="Tue Mar 15 17:21:39 PDT 2016" guiVersion="3.4.4.P" id="1458669150703" licenseType="Commercial" modified="Tue Mar 22 12:11:03 PDT 2016" modifiedBy="wenzhang" name="src_run" revision="1.8" showComponentDetails="true">
+<Global>
+<Metadata id="Metadata1" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," name="src_graph_path" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
+<Field eofAsDelimiter="false" name="filePath" nullable="true" shift="0" size="0" type="string"/>
+</Record>
+</Metadata>
+<Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="100" id="Note0" textColorB="0" textColorG="0" textColorR="0" textFontSize="12" title="Execute src graphs" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="14" width="609" x="31" y="13">
+<attr name="text"><![CDATA[
+1)  Use the fileList component to get a list of src graphs from the src folder in the project directory.
+2)  Use the runGraph component to execute src graphs in the src folder by on result from the list.]]></attr>
+</Note>
+<Dictionary/>
+</Global>
+<Phase number="0">
+<Node baseURL="${GRAPH_DIR}/src" enabled="enabled" guiName="get list of src graphs" guiX="31" guiY="138" id="GET_LIST_OF_SRC_GRAPHS" outputMapping="//#CTL2&#10;&#10;// Transforms input record into output record.&#10;function integer transform() {&#10;&#9;$out.0.filePath = $in.0.filePath;&#10;&#10;&#9;return ALL;&#10;}&#10;&#10;// Called during component initialization.&#10;// function boolean init() {}&#10;&#10;// Called during each graph run before the transform is executed. May be used to allocate and initialize resources&#10;// required by the transform. All resources allocated within this method should be released&#10;// by the postExecute() method.&#10;// function void preExecute() {}&#10;&#10;// Called only if transform() throws an exception.&#10;// function integer transformOnError(string errorMessage, string stackTrace) {}&#10;&#10;// Called during each graph run after the entire transform was executed. Should be used to free any resources&#10;// allocated within the preExecute() method.&#10;// function void postExecute() {}&#10;&#10;// Called to return a user-defined error message when an error occurs.&#10;// function string getMessage() {}&#10;" type="FILE_LIST"/>
+<Edge debugMode="true" fromNode="GET_LIST_OF_SRC_GRAPHS:0" guiBendpoints="" guiRouter="Manhattan" id="Edge1" inPort="Port 0 (in regular mode: names of the graphs to be executed, otherwise nothing)" metadata="Metadata1" outPort="Port 0 (out)" toNode="EXECUTE_SRC_GRAPHS_IN_LIST:0"/>
+</Phase>
+<Phase number="1">
+<Node enabled="enabled" guiName="execute src graphs in list" guiX="469" guiY="138" id="EXECUTE_SRC_GRAPHS_IN_LIST" paramsToPass="ads_username; ads_password; mssql_username; mssql_password" type="RUN_GRAPH"/>
+</Phase>
+</Graph>

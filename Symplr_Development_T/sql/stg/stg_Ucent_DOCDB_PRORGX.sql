@@ -1,0 +1,84 @@
+TRUNCATE TABLE stg_Ucent_DOCDB_PRORGX;
+
+INSERT /*+direct*/ INTO stg_Ucent_DOCDB_PRORGX
+(
+DOCID
+      ,PMORG
+      ,PMCITY
+      ,PMST
+      ,PMFMM
+      ,PMFMD
+      ,PMFMY
+      ,INDX
+      ,AUDIT_ID
+      ,AUDIT_DATE
+      ,PMPH
+      ,PMPHAC
+      ,PMTOM
+      ,PMTOD
+      ,PMTOY
+      ,PMOFCHLD
+      ,PMPOS
+      ,ACTIVE_FLAG
+      ,PMZIP
+      ,PMEXM
+      ,PMEXD
+      ,PMEXY
+      ,PMADD1
+      ,PMADD2
+      ,PMCNTY
+      ,PMCNTRY
+      ,Sort_Order
+      ,Ident
+      ,FromDate
+      ,ToDate
+      ,DateCreated
+      ,CreatedBy
+      ,DateModified
+      ,ModifiedBy
+      ,PMPHONENBR
+      ,GDLastTouched
+	,sys_hash,
+	sys_capture_date
+)
+
+SELECT DOCID
+      ,PMORG
+      ,PMCITY
+      ,PMST
+      ,PMFMM
+      ,PMFMD
+      ,PMFMY
+      ,INDX
+      ,AUDIT_ID
+      ,AUDIT_DATE
+      ,PMPH
+      ,PMPHAC
+      ,PMTOM
+      ,PMTOD
+      ,PMTOY
+      ,PMOFCHLD
+      ,PMPOS
+      ,ACTIVE_FLAG
+      ,PMZIP
+      ,PMEXM
+      ,PMEXD
+      ,PMEXY
+      ,PMADD1
+      ,PMADD2
+      ,PMCNTY
+      ,PMCNTRY
+      ,Sort_Order
+      ,Ident
+      ,FromDate
+      ,ToDate
+      ,DateCreated
+      ,CreatedBy
+      ,DateModified
+      ,ModifiedBy
+      ,PMPHONENBR
+      ,GDLastTouched
+	,sys_hash,
+	sys_capture_date
+FROM
+	src_Ucent_DOCDB_PRORGX;

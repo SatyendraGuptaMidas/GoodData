@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="admin" created="Tue Apr 05 12:38:25 IST 2016" guiVersion="3.4.4.P" id="1459851568570" licenseType="Commercial" modified="Wed Apr 06 17:40:49 IST 2016" modifiedBy="admin" name="src_ucent_cvolog" revision="1.2" showComponentDetails="true">
+<Global>
+<Metadata id="Metadata0" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," name="read_DOCDB_DuesAndGifts" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" name="DuesAndGiftsID" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" length="18" name="DocID" nullable="true" scale="0" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="18" name="FacilityID" nullable="true" scale="0" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="TransactionDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" length="18" name="TransactionType" nullable="true" scale="0" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" name="TransactionDescription" nullable="true" shift="0" size="75" type="string"/>
+<Field eofAsDelimiter="false" length="10" name="Assessed" nullable="true" scale="2" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="10" name="Outstanding" nullable="true" scale="2" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="10" name="GiftAmount" nullable="true" scale="2" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" name="CheckNumber" nullable="true" shift="0" size="34" type="string"/>
+<Field eofAsDelimiter="false" name="Waived_YN" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="Active_YN" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="DuesReceived" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="Sort_Order" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="DateCreated" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="CreatedBy" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="DateModified" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="ModifiedBy" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="PaidByCC_YN" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="true" format="yyyy-MM-dd HH:mm:ss" name="GDLastTouched" nullable="true" shift="0" size="23" type="date"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata1" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," name="write_DOCDB_DuesAndGifts" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" name="DuesAndGiftsID" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" length="18" name="DocID" nullable="true" scale="0" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="18" name="FacilityID" nullable="true" scale="0" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="TransactionDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" length="18" name="TransactionType" nullable="true" scale="0" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" name="TransactionDescription" nullable="true" shift="0" size="75" type="string"/>
+<Field eofAsDelimiter="false" length="10" name="Assessed" nullable="true" scale="2" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="10" name="Outstanding" nullable="true" scale="2" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="10" name="GiftAmount" nullable="true" scale="2" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" name="CheckNumber" nullable="true" shift="0" size="34" type="string"/>
+<Field eofAsDelimiter="false" name="Waived_YN" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="Active_YN" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="DuesReceived" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="Sort_Order" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="DateCreated" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="CreatedBy" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="DateModified" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="ModifiedBy" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="PaidByCC_YN" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="true" format="yyyy-MM-dd HH:mm:ss" name="GDLastTouched" nullable="true" shift="0" size="23" type="date"/>
+<Field name="sys_hash" type="string"/>
+<Field eofAsDelimiter="true" name="sys_capture_date" type="string"/>
+</Record>
+</Metadata>
+<Connection dbConfig="${PROJECT}/symplr_mssql_server.cfg" id="JDBC0" type="JDBC"/>
+<Connection dbConfig="${PROJECT}/sympr_gd_ads_connection.cfg" id="JDBC1" type="JDBC"/>
+<Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="113" id="Note0" textColorB="0" textColorG="0" textColorR="0" textFontSize="8" title="UCENT" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="10" width="363" x="70" y="328">
+<attr name="text"><![CDATA[SQL Table:   DOCDB_DuesAndGifts
+
+Good Data Tables:
+Source:		src_ucent_DOCDB_DuesAndGifts
+Stagging:	stg_ucent_DOCDB_DuesAndGifts]]></attr>
+</Note>
+<Dictionary/>
+</Global>
+<Phase number="0">
+<Node dbConnection="JDBC0" enabled="enabled" guiName="read DOCDB_DuesAndGifts" guiX="70" guiY="54" id="READ_DOCDB_DUES_AND_GIFTS" type="DB_INPUT_TABLE" url="${PROJECT}/sql/read/read_ucent_DOCDB_DuesAndGifts.sql"/>
+<Node enabled="enabled" guiName="Reformat" guiX="359" guiY="54" id="REFORMAT" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	string concat="";
+	$out.0.* = $in.0.*;
+	for(integer i=0;i<length($in.0);i++) {
+    	concat = concat + getValueAsString($in.0,i);
+	}
+	$out.0.sys_hash = byte2hex(md5(concat));
+	$out.0.sys_capture_date = date2str(today(),"yyyy-MM-dd HH:mm:ss");
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" fileURL="${DATA_GOODDATA_DIR}/src_ucent_DOCDB_DuesAndGifts.csv" guiName="write DOCDB_DuesAndGifts" guiX="561" guiY="54" id="WRITE_DOCDB_DUES_AND_GIFTS" makeDirs="true" outputFieldNames="true" quotedStrings="true" type="DATA_WRITER"/>
+<Edge debugMode="true" fromNode="READ_DOCDB_DUES_AND_GIFTS:0" guiBendpoints="" guiRouter="Manhattan" id="Edge2" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (out)" toNode="REFORMAT:0"/>
+<Edge debugMode="true" fromNode="REFORMAT:0" guiBendpoints="" guiRouter="Manhattan" id="Edge1" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 0 (out)" toNode="WRITE_DOCDB_DUES_AND_GIFTS:0"/>
+</Phase>
+<Phase number="1">
+<Node dbConnection="JDBC1" enabled="enabled" guiName="copy data to src_ucent_DOCDB_DuesAndGifts ads table" guiX="70" guiY="152" id="COPY_DATA_TO_SRC_UCENT_DOCDB_DUES_AND_GIFTS_ADS_TABLE" type="DB_EXECUTE" url="${PROJECT}/sql/src/src_ucent_DOCDB_DuesAndGifts.sql"/>
+</Phase>
+<Phase number="2">
+<Node dbConnection="JDBC1" enabled="enabled" guiName="copy data to stg_ucent_DOCDB_DuesAndGifts ads table" guiX="70" guiY="245" id="COPY_DATA_TO_STG_UCENT_DOCDB_DUES_AND_GIFTS_ADS_TABLE" type="DB_EXECUTE" url="${PROJECT}/sql/stg/stg_ucent_DOCDB_DuesAndGifts.sql"/>
+</Phase>
+</Graph>

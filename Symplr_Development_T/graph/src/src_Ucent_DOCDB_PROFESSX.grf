@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Graph author="wenzhang" created="Tue Mar 15 17:21:39 PDT 2016" guiVersion="3.4.4.P" id="1458576433522" licenseCode="CLP1DGOODD71636137BY" licenseType="Commercial" modified="Wed Apr 06 17:28:50 IST 2016" modifiedBy="admin" name="src_enrollmentportal_eplog" revision="1.48" showComponentDetails="true">
+<Global>
+<Metadata id="Metadata0">
+<Record fieldDelimiter="," name="read_DOCDB_PROFESSX" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" name="DOCID" nullable="true" shift="0" size="7" type="string"/>
+<Field eofAsDelimiter="false" name="PFNAM" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="PFADD1" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFADD2" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFCITY" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFST" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFZIP" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFFORM" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="PFTAX" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFOMGR" nullable="true" shift="0" size="36" type="string"/>
+<Field eofAsDelimiter="false" name="PFPHAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFPH" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFPHEXT" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFFAXAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFFAX" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFBA1" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFBA2" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFBCITY" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFBST" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFBZIP" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFPRI" nullable="true" shift="0" size="40" type="string"/>
+<Field eofAsDelimiter="false" name="PFOTH" nullable="true" shift="0" size="40" type="string"/>
+<Field eofAsDelimiter="false" name="PFUPIN" nullable="true" shift="0" size="6" type="string"/>
+<Field eofAsDelimiter="false" name="PFMCAID" nullable="true" shift="0" size="100" type="string"/>
+<Field eofAsDelimiter="false" name="PFMCARE" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRMON" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRTUE" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRWED" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRTHR" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRFRI" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRSAT" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFCONAM1" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPH1" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOEXT1" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFCONAM2" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPH2" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOEXT2" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFCONAM3" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPH3" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOEXT3" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PAGENAME" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCONAM4" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPH4" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOEXT4" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFCNTY" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFBCNTY" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" length="38" name="INDX" nullable="true" scale="0" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" name="AUDIT_ID" nullable="true" shift="0" size="7" type="string"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="AUDIT_DATE" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="PFBEMAIL" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFMEDIC" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFMEDICACCT" nullable="true" shift="0" size="11" type="string"/>
+<Field eofAsDelimiter="false" name="PFMEDICNUM" nullable="true" shift="0" size="11" type="string"/>
+<Field eofAsDelimiter="false" name="PFPRVDRTAX" nullable="true" shift="0" size="11" type="string"/>
+<Field eofAsDelimiter="false" name="PFBFAX" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFBPH" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOEXT5" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPAGE1" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPAGE2" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPAGE3" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPAGE4" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPAGE5" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPAGEAC1" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPAGEAC2" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPAGEAC3" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPAGEAC4" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPAGEAC5" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPH5" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFDBA" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="PFASVCNAM" nullable="true" shift="0" size="45" type="string"/>
+<Field eofAsDelimiter="false" name="PFASVCAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFASVCPH" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFACCNEW" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFACCWCC" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFAGELIMIT" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFAGELIMITFILL" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="PFANHPPW" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFANPSPD" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFLANG3" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFLANG2" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFLANG1" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFOUTSP" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFOUTSPFILL" nullable="true" shift="0" size="40" type="string"/>
+<Field eofAsDelimiter="false" name="PFLS" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFRAD" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFREFL" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFLSOS" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFTRDM" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFAUD" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFSIG" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFEKG" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFREFNAM" nullable="true" shift="0" size="45" type="string"/>
+<Field eofAsDelimiter="false" name="PFOTHSVC" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFMA2" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFMA1" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFMZIP" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFMST" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFMCITY" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFBPHAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFBFAXAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFBCNTC" nullable="true" shift="0" size="36" type="string"/>
+<Field eofAsDelimiter="false" name="PFBFCE" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFBCFB" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFBBSFTW" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFBSBCCH" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFMTNST" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFCST" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFEST" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFPST" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPRACNAM1" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOSPEC1" nullable="true" shift="0" size="100" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOADD11" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCITY1" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCITY2" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOSPEC5" nullable="true" shift="0" size="100" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOSPEC4" nullable="true" shift="0" size="100" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOSPEC3" nullable="true" shift="0" size="100" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOSPEC2" nullable="true" shift="0" size="100" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCITY3" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCITY4" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCITY5" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOADD12" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOADD13" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOADD14" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOADD15" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOST1" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOST2" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOST3" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOST4" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOST5" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOZIP1" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOZIP2" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOZIP3" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOZIP4" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOZIP5" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPHAC1" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPHAC2" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPHAC3" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPHAC4" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPHAC5" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOBCYN1" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOBCYN2" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOBCYN3" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOBCYN4" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOBCYN5" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICNUM1" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICNUM2" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICNUM3" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICNUM4" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICNUM5" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOISST1" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOISST2" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOISST3" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOISST4" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOISST5" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPRACNAM2" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPRACNAM3" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPRACNAM4" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPRACNAM5" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="PFCONAM5" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="PFEMRGPH" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFEMRGPHAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PRACID" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="PRACSUBID" nullable="true" shift="0" size="7" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRSUN" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFHCACC" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOID" nullable="true" shift="0" size="6" type="string"/>
+<Field eofAsDelimiter="false" name="PRAC_MGR_NAME1" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PRAC_MGR_NAME2" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PRAC_MGR_ID1" nullable="true" shift="0" size="7" type="string"/>
+<Field eofAsDelimiter="false" name="PRAC_MGR_ID2" nullable="true" shift="0" size="7" type="string"/>
+<Field eofAsDelimiter="false" name="PFSSO" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="LECCLIA" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="LECCLIAEXM" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LECCLIAEXD" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LECCLIAEXY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="LECCLIAISM" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LECCLIAISD" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LECCLIAISY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="LECCLIALVL" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PRAC_VP" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PRAC_VP_ID" nullable="true" shift="0" size="7" type="string"/>
+<Field eofAsDelimiter="false" name="OFFICEID" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PF24HRCRV" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFANHPPD" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFANHPPM" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFANHPPY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFANPSPM" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFANPSPW" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFANPSPY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFBCNTRY" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="PFBUSINESSTYPE" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFBUSINESSTYPESPECIFY" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCNTY1" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPHAC1" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPH1" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXD1" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXM1" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXY1" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISD1" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISM1" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISY1" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICTYP1" nullable="true" shift="0" size="60" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCELLAC1" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCELLPH1" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCNTRY" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOADD16" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOADD26" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOBCYN6" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCELLAC2" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCELLAC3" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCELLAC4" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCELLAC5" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCELLAC6" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCELLPH2" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCELLPH3" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCELLPH4" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCELLPH5" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCELLPH6" nullable="true" shift="0" size="8" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCITY6" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCNTRY1" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCNTRY2" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCNTRY3" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCNTRY4" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCNTRY5" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCNTRY6" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCNTY2" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCNTY3" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCNTY4" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCNTY5" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCNTY6" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOEXT6" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPH2" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPH3" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPH4" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPH5" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPH6" nullable="true" shift="0" size="8" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPHAC2" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPHAC3" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPHAC4" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPHAC5" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPHAC6" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOISST6" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXD2" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXD3" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXD4" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXD5" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXD6" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXM2" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXM3" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXM4" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXM5" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXM6" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXY2" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXY3" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXY4" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXY5" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXY6" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISD2" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISD3" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISD4" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISD5" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISD6" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISM2" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISM3" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISM4" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISM5" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISM6" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISY2" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISY3" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISY4" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISY5" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISY6" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICNUM6" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICTYP2" nullable="true" shift="0" size="60" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICTYP3" nullable="true" shift="0" size="60" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICTYP4" nullable="true" shift="0" size="60" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICTYP5" nullable="true" shift="0" size="60" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICTYP6" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFCONAM6" nullable="true" shift="0" size="40" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPAGE6" nullable="true" shift="0" size="8" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPAGEAC6" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPH6" nullable="true" shift="0" size="8" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPHAC6" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPRACNAM6" nullable="true" shift="0" size="45" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOSPEC6" nullable="true" shift="0" size="100" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOST6" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOZIP6" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRFRIAFTNFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRFRIAFTNTO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRFRIAMFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRFRIAMTO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRFRIEVEFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRFRIEVETO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRMONAFTNFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRMONAFTNTO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRMONAMFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRMONAMTO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRMONEVEFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRMONEVETO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRSATAFTNFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRSATAFTNTO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRSATAMFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRSATAMTO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRSATEVEFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRSATEVETO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRSUNAFTNFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRSUNAFTNTO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRSUNAMFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRSUNAMTO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRSUNEVEFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRSUNEVETO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRTHRAFTNFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRTHRAFTNTO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRTHRAMFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRTHRAMTO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRTHREVEFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRTHREVETO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRTUEAFTNFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRTUEAFTNTO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRTUEAMFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRTUEAMTO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRTUEEVEFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRTUEEVETO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRWEDAFTNFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRWEDAFTNTO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRWEDAMFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRWEDAMTO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRWEDEVEFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRWEDEVETO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFMCNTRY" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="PFMCNTY" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFOMGRFAX" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFOMGRFAXAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFOMGRPH" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFOMGRPHAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFPRVDRMCAID" nullable="true" shift="0" size="100" type="string"/>
+<Field eofAsDelimiter="false" name="PFPRVDRMCARE" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFPRVDRUPIN" nullable="true" shift="0" size="11" type="string"/>
+<Field eofAsDelimiter="false" name="PFBNAM" nullable="true" shift="0" size="45" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOADD21" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOADD22" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOADD23" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOADD24" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOADD25" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="LECCLIAWVR" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFEMAIL" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFPTA" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFPRACTICETYPE" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFASVCPHAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PRACWEBSITE" nullable="true" shift="0" size="100" type="string"/>
+<Field eofAsDelimiter="false" name="PFPRACWEBSITE" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFOMGRFNAM" nullable="true" shift="0" size="22" type="string"/>
+<Field eofAsDelimiter="false" name="PFOMGRLNAM" nullable="true" shift="0" size="22" type="string"/>
+<Field eofAsDelimiter="false" name="PFOMGRMI" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFBCNTCFNAM" nullable="true" shift="0" size="22" type="string"/>
+<Field eofAsDelimiter="false" name="PFBCNTCLNAM" nullable="true" shift="0" size="22" type="string"/>
+<Field eofAsDelimiter="false" name="PFBCNTCMI" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLNAM1" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOFNAM1" nullable="true" shift="0" size="22" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOMI1" nullable="true" shift="0" size="11" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLNAM2" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOFNAM2" nullable="true" shift="0" size="22" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOMI2" nullable="true" shift="0" size="11" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLNAM3" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOFNAM3" nullable="true" shift="0" size="22" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOMI3" nullable="true" shift="0" size="11" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLNAM4" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOFNAM4" nullable="true" shift="0" size="22" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOMI4" nullable="true" shift="0" size="11" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLNAM5" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOFNAM5" nullable="true" shift="0" size="22" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOMI5" nullable="true" shift="0" size="11" type="string"/>
+<Field eofAsDelimiter="false" name="PFLANG1CAQHCODE" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFLANG2CAQHCODE" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFLANG3CAQHCODE" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFADDNUM" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFADDSTREET" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFCAQHLANGCODE1" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCAQHLANGCODE2" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCAQHLANGCODE3" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="Sort_Order" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="PFSITEVISITDTM" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFSITEVISITDTD" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFSITEVISITDTY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFSITEVISITSCORE" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="LECSCLIA" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="LECSCLIAEXD" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LECSCLIAEXM" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LECSCLIAEXY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="LECSCLIAISD" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LECSCLIAISM" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LECSCLIAISY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="LECSCLIALVL" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="LECSCLIAWVR" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="FRIENDLY_NAME" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="LECCLIASWVR" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFOMGREMAIL" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDCONTNAM" nullable="true" shift="0" size="45" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDPHEXT" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDPH" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDPHAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDFAXAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDFAX" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDEMAIL" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDADD1" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDADD2" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDCITY" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDZIP" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDST" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVCONTNAM" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVPHAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVPH" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVPHEXT" nullable="true" shift="0" size="8" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVFAX" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVFAXAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVEMAIL" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVADD1" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVADD2" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVCITY" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVST" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVZIP" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="ACTIVE_FLAG" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFNPI" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFAHPSPONSOR" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="PFAKST" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFTAXONOMY1" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFTAXONOMY2" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFTAXONOMY3" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFTAXONOMY4" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFTAXONOMY5" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFDEPINSTNAM" nullable="true" shift="0" size="40" type="string"/>
+<Field eofAsDelimiter="false" name="PFDEPADD1" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFDEPADD2" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFDEPCITY" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFDEPST" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFDEPZIP" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFDEPPHAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFDEPPH" nullable="true" shift="0" size="8" type="string"/>
+<Field eofAsDelimiter="false" name="PFDEPCONTACT" nullable="true" shift="0" size="40" type="string"/>
+<Field eofAsDelimiter="false" name="PFDEPROUTING" nullable="true" shift="0" size="9" type="string"/>
+<Field eofAsDelimiter="false" name="PFDEPACCTTYP" nullable="true" shift="0" size="8" type="string"/>
+<Field eofAsDelimiter="false" name="PFDEPACCT" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="SiteVisitDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="CLIAIssueDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="CLIAExpDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="StLabIssueDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="StLabExpDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="OncallLicIssue1" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="OncallLicIssue2" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="OncallLicIssue3" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="OncallLicIssue4" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="OncallLicIssue5" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="OncallLicExp1" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="OncallLicExp2" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="OncallLicExp3" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="OncallLicExp4" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="OncallLicExp5" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="PFOMGRPHEXT" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFAHPPROCTOR" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="DateCreated" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="CreatedBy" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="DateModified" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="ModifiedBy" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="PFFaxNbr" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFOMGRPhoneNbr" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFOMGRFaxNbr" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFASvcPhoneNbr" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFEmrgPhoneNbr" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFBPhoneNbr" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFBFAXNbr" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PracProvPhoneNbr" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PracProvFaxNbr" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PracCredPhoneNbr" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PracCredFaxNbr" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFPhoneNbr" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPhoneNbr1" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPhoneNbr1" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPagePhoneNbr1" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCellPhoneNbr1" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPhoneNbr2" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPhoneNbr2" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPagePhoneNbr2" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCellPhoneNbr2" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPhoneNbr3" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPhoneNbr3" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPagePhoneNbr3" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCellPhoneNbr3" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPhoneNbr4" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPhoneNbr4" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPagePhoneNbr4" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCellPhoneNbr4" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPhoneNbr5" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPhoneNbr5" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPagePhoneNbr5" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCellPhoneNbr5" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="PracStartDATE" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="PFDirExchAddr" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFCODocID1" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="PFCODocID2" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="PFCODocID3" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="PFCODocID4" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="PFCODocID5" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="PFAHPSPONSORDocID" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="PFAHPPROCTORDocID" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="PFAHPSPONSORFNAME" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFAHPSPONSORLNAME" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFAHPSPONSORMI" nullable="true" shift="0" size="11" type="string"/>
+<Field eofAsDelimiter="false" name="PFAHPSPONSORSUFX" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFAHPPROCTORFNAM" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFAHPPROCTORLNAM" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFAHPPROCTORMI" nullable="true" shift="0" size="11" type="string"/>
+<Field eofAsDelimiter="false" name="PFAHPPROCTORSUFX" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDCONTFNAM" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDCONTLNAM" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDCONTMI" nullable="true" shift="0" size="11" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVCONTFNAM" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVCONTLNAM" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVCONTMI" nullable="true" shift="0" size="11" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOSUFX1" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOSUFX2" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOSUFX3" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOSUFX4" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOSUFX5" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="true" format="yyyy-MM-dd HH:mm:ss" name="GDLastTouched" nullable="true" shift="0" size="23" type="date"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata1" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," name="write_DOCDB_PROFESSX" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" name="DOCID" nullable="true" shift="0" size="7" type="string"/>
+<Field eofAsDelimiter="false" name="PFNAM" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="PFADD1" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFADD2" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFCITY" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFST" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFZIP" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFFORM" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="PFTAX" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFOMGR" nullable="true" shift="0" size="36" type="string"/>
+<Field eofAsDelimiter="false" name="PFPHAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFPH" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFPHEXT" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFFAXAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFFAX" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFBA1" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFBA2" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFBCITY" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFBST" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFBZIP" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFPRI" nullable="true" shift="0" size="40" type="string"/>
+<Field eofAsDelimiter="false" name="PFOTH" nullable="true" shift="0" size="40" type="string"/>
+<Field eofAsDelimiter="false" name="PFUPIN" nullable="true" shift="0" size="6" type="string"/>
+<Field eofAsDelimiter="false" name="PFMCAID" nullable="true" shift="0" size="100" type="string"/>
+<Field eofAsDelimiter="false" name="PFMCARE" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRMON" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRTUE" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRWED" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRTHR" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRFRI" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRSAT" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFCONAM1" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPH1" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOEXT1" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFCONAM2" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPH2" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOEXT2" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFCONAM3" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPH3" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOEXT3" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PAGENAME" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCONAM4" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPH4" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOEXT4" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFCNTY" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFBCNTY" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" length="38" name="INDX" nullable="true" scale="0" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" name="AUDIT_ID" nullable="true" shift="0" size="7" type="string"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="AUDIT_DATE" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="PFBEMAIL" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFMEDIC" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFMEDICACCT" nullable="true" shift="0" size="11" type="string"/>
+<Field eofAsDelimiter="false" name="PFMEDICNUM" nullable="true" shift="0" size="11" type="string"/>
+<Field eofAsDelimiter="false" name="PFPRVDRTAX" nullable="true" shift="0" size="11" type="string"/>
+<Field eofAsDelimiter="false" name="PFBFAX" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFBPH" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOEXT5" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPAGE1" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPAGE2" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPAGE3" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPAGE4" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPAGE5" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPAGEAC1" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPAGEAC2" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPAGEAC3" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPAGEAC4" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPAGEAC5" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPH5" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFDBA" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="PFASVCNAM" nullable="true" shift="0" size="45" type="string"/>
+<Field eofAsDelimiter="false" name="PFASVCAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFASVCPH" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFACCNEW" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFACCWCC" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFAGELIMIT" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFAGELIMITFILL" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="PFANHPPW" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFANPSPD" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFLANG3" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFLANG2" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFLANG1" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFOUTSP" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFOUTSPFILL" nullable="true" shift="0" size="40" type="string"/>
+<Field eofAsDelimiter="false" name="PFLS" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFRAD" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFREFL" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFLSOS" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFTRDM" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFAUD" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFSIG" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFEKG" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFREFNAM" nullable="true" shift="0" size="45" type="string"/>
+<Field eofAsDelimiter="false" name="PFOTHSVC" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFMA2" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFMA1" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFMZIP" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFMST" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFMCITY" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFBPHAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFBFAXAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFBCNTC" nullable="true" shift="0" size="36" type="string"/>
+<Field eofAsDelimiter="false" name="PFBFCE" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFBCFB" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFBBSFTW" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFBSBCCH" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFMTNST" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFCST" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFEST" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFPST" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPRACNAM1" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOSPEC1" nullable="true" shift="0" size="100" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOADD11" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCITY1" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCITY2" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOSPEC5" nullable="true" shift="0" size="100" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOSPEC4" nullable="true" shift="0" size="100" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOSPEC3" nullable="true" shift="0" size="100" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOSPEC2" nullable="true" shift="0" size="100" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCITY3" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCITY4" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCITY5" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOADD12" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOADD13" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOADD14" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOADD15" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOST1" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOST2" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOST3" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOST4" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOST5" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOZIP1" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOZIP2" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOZIP3" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOZIP4" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOZIP5" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPHAC1" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPHAC2" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPHAC3" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPHAC4" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPHAC5" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOBCYN1" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOBCYN2" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOBCYN3" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOBCYN4" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOBCYN5" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICNUM1" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICNUM2" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICNUM3" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICNUM4" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICNUM5" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOISST1" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOISST2" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOISST3" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOISST4" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOISST5" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPRACNAM2" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPRACNAM3" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPRACNAM4" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPRACNAM5" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="PFCONAM5" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="PFEMRGPH" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFEMRGPHAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PRACID" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="PRACSUBID" nullable="true" shift="0" size="7" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRSUN" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFHCACC" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOID" nullable="true" shift="0" size="6" type="string"/>
+<Field eofAsDelimiter="false" name="PRAC_MGR_NAME1" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PRAC_MGR_NAME2" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PRAC_MGR_ID1" nullable="true" shift="0" size="7" type="string"/>
+<Field eofAsDelimiter="false" name="PRAC_MGR_ID2" nullable="true" shift="0" size="7" type="string"/>
+<Field eofAsDelimiter="false" name="PFSSO" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="LECCLIA" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="LECCLIAEXM" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LECCLIAEXD" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LECCLIAEXY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="LECCLIAISM" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LECCLIAISD" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LECCLIAISY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="LECCLIALVL" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PRAC_VP" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PRAC_VP_ID" nullable="true" shift="0" size="7" type="string"/>
+<Field eofAsDelimiter="false" name="OFFICEID" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PF24HRCRV" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFANHPPD" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFANHPPM" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFANHPPY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFANPSPM" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFANPSPW" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFANPSPY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFBCNTRY" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="PFBUSINESSTYPE" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFBUSINESSTYPESPECIFY" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCNTY1" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPHAC1" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPH1" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXD1" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXM1" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXY1" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISD1" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISM1" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISY1" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICTYP1" nullable="true" shift="0" size="60" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCELLAC1" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCELLPH1" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCNTRY" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOADD16" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOADD26" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOBCYN6" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCELLAC2" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCELLAC3" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCELLAC4" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCELLAC5" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCELLAC6" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCELLPH2" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCELLPH3" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCELLPH4" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCELLPH5" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCELLPH6" nullable="true" shift="0" size="8" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCITY6" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCNTRY1" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCNTRY2" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCNTRY3" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCNTRY4" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCNTRY5" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCNTRY6" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCNTY2" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCNTY3" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCNTY4" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCNTY5" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCNTY6" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOEXT6" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPH2" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPH3" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPH4" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPH5" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPH6" nullable="true" shift="0" size="8" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPHAC2" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPHAC3" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPHAC4" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPHAC5" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPHAC6" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOISST6" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXD2" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXD3" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXD4" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXD5" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXD6" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXM2" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXM3" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXM4" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXM5" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXM6" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXY2" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXY3" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXY4" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXY5" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICEXY6" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISD2" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISD3" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISD4" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISD5" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISD6" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISM2" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISM3" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISM4" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISM5" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISM6" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISY2" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISY3" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISY4" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISY5" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICISY6" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICNUM6" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICTYP2" nullable="true" shift="0" size="60" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICTYP3" nullable="true" shift="0" size="60" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICTYP4" nullable="true" shift="0" size="60" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICTYP5" nullable="true" shift="0" size="60" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLICTYP6" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFCONAM6" nullable="true" shift="0" size="40" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPAGE6" nullable="true" shift="0" size="8" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPAGEAC6" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPH6" nullable="true" shift="0" size="8" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPHAC6" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPRACNAM6" nullable="true" shift="0" size="45" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOSPEC6" nullable="true" shift="0" size="100" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOST6" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOZIP6" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRFRIAFTNFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRFRIAFTNTO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRFRIAMFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRFRIAMTO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRFRIEVEFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRFRIEVETO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRMONAFTNFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRMONAFTNTO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRMONAMFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRMONAMTO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRMONEVEFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRMONEVETO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRSATAFTNFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRSATAFTNTO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRSATAMFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRSATAMTO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRSATEVEFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRSATEVETO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRSUNAFTNFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRSUNAFTNTO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRSUNAMFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRSUNAMTO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRSUNEVEFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRSUNEVETO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRTHRAFTNFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRTHRAFTNTO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRTHRAMFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRTHRAMTO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRTHREVEFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRTHREVETO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRTUEAFTNFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRTUEAFTNTO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRTUEAMFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRTUEAMTO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRTUEEVEFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRTUEEVETO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRWEDAFTNFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRWEDAFTNTO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRWEDAMFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRWEDAMTO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRWEDEVEFRM" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFHRWEDEVETO" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFMCNTRY" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="PFMCNTY" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="PFOMGRFAX" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFOMGRFAXAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFOMGRPH" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFOMGRPHAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFPRVDRMCAID" nullable="true" shift="0" size="100" type="string"/>
+<Field eofAsDelimiter="false" name="PFPRVDRMCARE" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFPRVDRUPIN" nullable="true" shift="0" size="11" type="string"/>
+<Field eofAsDelimiter="false" name="PFBNAM" nullable="true" shift="0" size="45" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOADD21" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOADD22" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOADD23" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOADD24" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOADD25" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="LECCLIAWVR" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFEMAIL" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFPTA" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFPRACTICETYPE" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFASVCPHAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PRACWEBSITE" nullable="true" shift="0" size="100" type="string"/>
+<Field eofAsDelimiter="false" name="PFPRACWEBSITE" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFOMGRFNAM" nullable="true" shift="0" size="22" type="string"/>
+<Field eofAsDelimiter="false" name="PFOMGRLNAM" nullable="true" shift="0" size="22" type="string"/>
+<Field eofAsDelimiter="false" name="PFOMGRMI" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFBCNTCFNAM" nullable="true" shift="0" size="22" type="string"/>
+<Field eofAsDelimiter="false" name="PFBCNTCLNAM" nullable="true" shift="0" size="22" type="string"/>
+<Field eofAsDelimiter="false" name="PFBCNTCMI" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLNAM1" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOFNAM1" nullable="true" shift="0" size="22" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOMI1" nullable="true" shift="0" size="11" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLNAM2" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOFNAM2" nullable="true" shift="0" size="22" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOMI2" nullable="true" shift="0" size="11" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLNAM3" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOFNAM3" nullable="true" shift="0" size="22" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOMI3" nullable="true" shift="0" size="11" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLNAM4" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOFNAM4" nullable="true" shift="0" size="22" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOMI4" nullable="true" shift="0" size="11" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOLNAM5" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOFNAM5" nullable="true" shift="0" size="22" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOMI5" nullable="true" shift="0" size="11" type="string"/>
+<Field eofAsDelimiter="false" name="PFLANG1CAQHCODE" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFLANG2CAQHCODE" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFLANG3CAQHCODE" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFADDNUM" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFADDSTREET" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFCAQHLANGCODE1" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCAQHLANGCODE2" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFCAQHLANGCODE3" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="Sort_Order" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="PFSITEVISITDTM" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFSITEVISITDTD" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFSITEVISITDTY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFSITEVISITSCORE" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="LECSCLIA" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="LECSCLIAEXD" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LECSCLIAEXM" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LECSCLIAEXY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="LECSCLIAISD" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LECSCLIAISM" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LECSCLIAISY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="LECSCLIALVL" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="LECSCLIAWVR" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="FRIENDLY_NAME" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="LECCLIASWVR" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFOMGREMAIL" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDCONTNAM" nullable="true" shift="0" size="45" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDPHEXT" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDPH" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDPHAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDFAXAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDFAX" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDEMAIL" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDADD1" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDADD2" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDCITY" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDZIP" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDST" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVCONTNAM" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVPHAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVPH" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVPHEXT" nullable="true" shift="0" size="8" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVFAX" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVFAXAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVEMAIL" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVADD1" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVADD2" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVCITY" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVST" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVZIP" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="ACTIVE_FLAG" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFNPI" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFAHPSPONSOR" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="PFAKST" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="PFTAXONOMY1" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFTAXONOMY2" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFTAXONOMY3" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFTAXONOMY4" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFTAXONOMY5" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFDEPINSTNAM" nullable="true" shift="0" size="40" type="string"/>
+<Field eofAsDelimiter="false" name="PFDEPADD1" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFDEPADD2" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFDEPCITY" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFDEPST" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="PFDEPZIP" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="PFDEPPHAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="PFDEPPH" nullable="true" shift="0" size="8" type="string"/>
+<Field eofAsDelimiter="false" name="PFDEPCONTACT" nullable="true" shift="0" size="40" type="string"/>
+<Field eofAsDelimiter="false" name="PFDEPROUTING" nullable="true" shift="0" size="9" type="string"/>
+<Field eofAsDelimiter="false" name="PFDEPACCTTYP" nullable="true" shift="0" size="8" type="string"/>
+<Field eofAsDelimiter="false" name="PFDEPACCT" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="SiteVisitDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="CLIAIssueDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="CLIAExpDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="StLabIssueDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="StLabExpDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="OncallLicIssue1" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="OncallLicIssue2" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="OncallLicIssue3" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="OncallLicIssue4" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="OncallLicIssue5" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="OncallLicExp1" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="OncallLicExp2" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="OncallLicExp3" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="OncallLicExp4" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="OncallLicExp5" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="PFOMGRPHEXT" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFAHPPROCTOR" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="DateCreated" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="CreatedBy" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="DateModified" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="ModifiedBy" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="PFFaxNbr" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFOMGRPhoneNbr" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFOMGRFaxNbr" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFASvcPhoneNbr" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFEmrgPhoneNbr" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFBPhoneNbr" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFBFAXNbr" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PracProvPhoneNbr" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PracProvFaxNbr" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PracCredPhoneNbr" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PracCredFaxNbr" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFPhoneNbr" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPhoneNbr1" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPhoneNbr1" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPagePhoneNbr1" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCellPhoneNbr1" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPhoneNbr2" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPhoneNbr2" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPagePhoneNbr2" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCellPhoneNbr2" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPhoneNbr3" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPhoneNbr3" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPagePhoneNbr3" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCellPhoneNbr3" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPhoneNbr4" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPhoneNbr4" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPagePhoneNbr4" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCellPhoneNbr4" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPhoneNbr5" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOHMPhoneNbr5" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOPagePhoneNbr5" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOCellPhoneNbr5" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="PracStartDATE" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="PFDirExchAddr" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="PFCODocID1" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="PFCODocID2" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="PFCODocID3" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="PFCODocID4" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="PFCODocID5" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="PFAHPSPONSORDocID" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="PFAHPPROCTORDocID" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="PFAHPSPONSORFNAME" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFAHPSPONSORLNAME" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFAHPSPONSORMI" nullable="true" shift="0" size="11" type="string"/>
+<Field eofAsDelimiter="false" name="PFAHPSPONSORSUFX" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFAHPPROCTORFNAM" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFAHPPROCTORLNAM" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PFAHPPROCTORMI" nullable="true" shift="0" size="11" type="string"/>
+<Field eofAsDelimiter="false" name="PFAHPPROCTORSUFX" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDCONTFNAM" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDCONTLNAM" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PRACCREDCONTMI" nullable="true" shift="0" size="11" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVCONTFNAM" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVCONTLNAM" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="PRACPROVCONTMI" nullable="true" shift="0" size="11" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOSUFX1" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOSUFX2" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOSUFX3" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOSUFX4" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="false" name="PFCOSUFX5" nullable="true" shift="0" size="5" type="string"/>
+<Field eofAsDelimiter="true" format="yyyy-MM-dd HH:mm:ss" name="GDLastTouched" nullable="true" shift="0" size="23" type="date"/>
+<Field name="sys_hash" type="string"/>
+<Field eofAsDelimiter="true" name="sys_capture_date" type="string"/>
+</Record>
+</Metadata>
+<Connection database="MSSQL" dbURL="jdbc:jtds:sqlserver://${mssql_server}:1433/" id="JDBC0" jdbcSpecific="MSSQL" name="symplr_mssql_server" password="${mssql_password}" passwordEncrypted="false" threadSafeConnection="true" type="JDBC" user="${mssql_username}"/>
+<Connection database="DSS" dbURL="jdbc:gdc:datawarehouse://secure.gooddata.com/gdc/datawarehouse/instances/zb9c07780fdc2fbe5eeced558233ca4b" id="JDBC1" jdbcSpecific="DSS" name="sympr_gd_ads_connection" password="${ads_password}" passwordEncrypted="false" threadSafeConnection="true" type="JDBC" user="${ads_username}"/>
+<Property id="GraphParameter0" name="ads_password" value="Y4MyTEP54dbBdkJy"/>
+<Property id="GraphParameter1" name="ads_username" value="ps-etl+symplr@gooddata.com"/>
+<Property id="GraphParameter2" name="DATA_DIR" value="${PROJECT}/data"/>
+<Property id="GraphParameter3" name="DATA_GOODDATA_DIR" value="${PROJECT}/data/gooddata"/>
+<Property id="GraphParameter4" name="DATA_SOURCE_DIR" value="${PROJECT}/data/source"/>
+<Property id="GraphParameter5" name="DATA_TMP_DIR" value="${PROJECT}/data/tmp"/>
+<Property id="GraphParameter6" name="DATA_TRANSFORM_DIR" value="${PROJECT}/data/transform"/>
+<Property id="GraphParameter7" name="db_ep" value="enrollmentportal"/>
+<Property id="GraphParameter8" name="db_epr" value="ucent"/>
+<Property id="GraphParameter9" name="db_hs" value="hortyspringer"/>
+<Property id="GraphParameter10" name="db_uc" value="universalcredentialing"/>
+<Property id="GraphParameter11" name="GDC_PROJECT_ID" value="j0pjb10ugs6jhbn0skdzubg2yaewjs3b"/>
+<Property id="GraphParameter12" name="GRAPH_DIR" value="${PROJECT}/graph"/>
+<Property id="GraphParameter13" name="META_DIR" value="${PROJECT}/meta"/>
+<Property id="GraphParameter14" name="MODEL_DIR" value="${PROJECT}/model"/>
+<Property id="GraphParameter15" name="mssql_password" value="Smoothambler10year"/>
+<Property id="GraphParameter16" name="mssql_server" value="70.42.3.239"/>
+<Property id="GraphParameter17" name="mssql_username" value="GoodData"/>
+<Property id="GraphParameter18" name="name" value="value"/>
+<Property id="GraphParameter19" name="PROJECT" value="."/>
+<Property id="GraphParameter20" name="schema" value="dbo"/>
+<Property id="GraphParameter21" name="TRANS_DIR" value="${PROJECT}/trans"/>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="177" id="Note0" textColorB="0" textColorG="0" textColorR="0" textFontSize="12" title="Load data to GoodData ADS" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="14" width="404" x="254" y="154">
+<attr name="text"><![CDATA[
+1)  Use the dbInputTable component to read tables/objects from the Symplr MS SQL server.
+2)  Use the csvWriter Component to write data to csv with two additiona fields (sys_hash and sys_capture_date).
+3)  Use the dbExecute component to copy/load CSV output to source table in ADS.
+4)  Use the dbExecute component to load data from source table to target table.
+]]></attr>
+</Note>
+<Dictionary/>
+</Global>
+<Phase number="0">
+<Node dbConnection="JDBC0" enabled="enabled" guiName="read mssql table" guiX="19" guiY="35" id="READ_MSSQL_TABLE" type="DB_INPUT_TABLE" url="${PROJECT}/sql/read/read_Ucent_DOCDB_PROFESSX.sql"/>
+<Node enabled="enabled" guiName="Reformat" guiX="254" guiY="35" id="REFORMAT" type="REFORMAT">
+<attr name="transform"><![CDATA[function integer transform() {
+	string concat="";
+	$out.0.* = $in.0.*;
+	for(integer i=0;i<length($in.0);i++) {
+    	concat = concat + getValueAsString($in.0,i);
+	}
+	$out.0.sys_hash = byte2hex(md5(concat));
+	$out.0.sys_capture_date = date2str(today(),"yyyy-MM-dd HH:mm:ss");
+	return ALL;
+}]]></attr>
+</Node>
+<Node enabled="enabled" fileURL="${DATA_GOODDATA_DIR}/src_Ucent_DOCDB_PROFESSX.csv" guiName="write data to csv" guiX="524" guiY="35" id="WRITE_DATA_TO_CSV" makeDirs="true" outputFieldNames="true" quotedStrings="true" type="DATA_WRITER"/>
+<Edge debugMode="true" fromNode="READ_MSSQL_TABLE:0" guiBendpoints="" guiRouter="Manhattan" id="Edge0" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (out)" toNode="REFORMAT:0"/>
+<Edge debugMode="true" fromNode="REFORMAT:0" guiBendpoints="" guiRouter="Manhattan" id="Edge1" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 0 (out)" toNode="WRITE_DATA_TO_CSV:0"/>
+</Phase>
+<Phase number="1">
+<Node dbConnection="JDBC1" enabled="enabled" guiName="copy data to src ads table" guiX="19" guiY="160" id="COPY_DATA_TO_SRC_ADS_TABLE" type="DB_EXECUTE" url="${PROJECT}/sql/src/src_Ucent_DOCDB_PROFESSX.sql"/>
+</Phase>
+<Phase number="2">
+<Node dbConnection="JDBC1" enabled="enabled" guiName="copy data to stg ads table" guiX="19" guiY="246" id="COPY_DATA_TO_STG_ADS_TABLE" type="DB_EXECUTE" url="${PROJECT}/sql/stg/stg_Ucent_DOCDB_PROFESSX.sql"/>
+</Phase>
+</Graph>

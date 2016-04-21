@@ -1,0 +1,51 @@
+TRUNCATE TABLE stg_Ucent_PRIV_PrivilegeLog;
+
+INSERT /*+direct*/ INTO stg_Ucent_PRIV_PrivilegeLog
+(
+PrivilegeLog_ID
+      ,FacilityID
+      ,ItemDescription
+      ,ProviderID
+      ,ProviderName
+      ,DateAdded
+      ,LastChangeDate
+      ,Status
+      ,RequestType
+      ,AUDIT_ID
+      ,ReprivMode
+      ,Audit_date
+      ,ScheduledGrantDate
+      ,ScheduledPrivStatus
+      ,ScheduledPrivStatusLimit
+      ,ScheduledExpirationDate
+      ,IsLastRapptDateChange
+      ,IsNextRapptDateChange
+      ,GDLastTouched
+	,sys_hash,
+	sys_capture_date
+)
+
+SELECT
+PrivilegeLog_ID
+      ,FacilityID
+      ,ItemDescription
+      ,ProviderID
+      ,ProviderName
+      ,DateAdded
+      ,LastChangeDate
+      ,Status
+      ,RequestType
+      ,AUDIT_ID
+      ,ReprivMode
+      ,Audit_date
+      ,ScheduledGrantDate
+      ,ScheduledPrivStatus
+      ,ScheduledPrivStatusLimit
+      ,ScheduledExpirationDate
+      ,IsLastRapptDateChange
+      ,IsNextRapptDateChange
+      ,GDLastTouched
+	,sys_hash,
+	sys_capture_date
+FROM
+	src_Ucent_PRIV_PrivilegeLog;

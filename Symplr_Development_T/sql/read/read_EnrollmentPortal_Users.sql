@@ -1,0 +1,17 @@
+SELECT 
+         ID
+      ,LastName
+      ,FirstName
+      ,Email
+      ,UserName
+      ,Password
+      ,bIsActive
+      ,ActiveUsersEpisodesID
+      ,EPRDocID
+      ,Roles
+      ,UUID
+      ,LastClick
+      ,GDLastTouched
+FROM 
+    ${db_ep}.${schema}.Users
+;

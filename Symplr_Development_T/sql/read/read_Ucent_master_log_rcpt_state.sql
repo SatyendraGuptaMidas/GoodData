@@ -1,0 +1,9 @@
+SELECT 
+RCPT_STATE_ID
+      ,RCPT_STATE_ABBR
+      ,RCPT_STATE_DESC
+      ,AUDIT_ID
+      ,GDLastTouched
+FROM 
+    ${db_epr}.${schema}.master_log_rcpt_state
+;

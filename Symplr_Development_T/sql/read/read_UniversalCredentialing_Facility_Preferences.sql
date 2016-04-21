@@ -1,0 +1,11 @@
+SELECT 
+	   INDX
+      ,PREF_TYPE
+      ,PREF_NOTE
+      ,PREF_SETTING
+      ,FACILITYID
+      ,AUDIT_ID
+      ,GDLastTouched
+FROM 
+    ${db_uc}.${schema}.Facility_Preferences
+;

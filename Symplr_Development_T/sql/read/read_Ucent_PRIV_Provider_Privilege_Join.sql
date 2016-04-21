@@ -1,0 +1,23 @@
+SELECT 
+ ProviderPrivilegeJoin_ID
+      ,FacilityID
+      ,Provider_ID
+      ,BoardIndx
+      ,CertIndx
+      ,Privilege_ID
+      ,Core_Special
+      ,PrivilegeStatus
+      ,PrivilegeType
+      ,DateGranted
+      ,ExpirationDate
+      ,Audit_id
+      ,Audit_date
+      ,Action_Type
+      ,Privilege
+      ,SortOrder
+      ,HSPrivilegeID
+      ,GDLastTouched
+
+FROM 
+    ${db_epr}.${schema}.PRIV_Provider_Privilege_Join
+;

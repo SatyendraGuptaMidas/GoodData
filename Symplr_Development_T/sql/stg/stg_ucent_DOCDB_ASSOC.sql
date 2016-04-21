@@ -1,0 +1,17 @@
+TRUNCATE TABLE stg_ucent_DOCDB_ASSOC;
+
+INSERT /*+direct*/ INTO stg_ucent_DOCDB_ASSOC
+(	 
+		DOCID, AUDIT_ID, AUDIT_DATE, INDX, ASSOCNAM, ASSOCBC, ASSOCLICNUM, ASSOCSPEC, ASSOCISST, ASSOCID, PRACID, PRACSUBID, ASSOCFNAM, ASSOCLNAM, ASSOCMI, ASSOCCAQHCODESPEC, 
+                         ACTIVE_FLAG, DateCreated, CreatedBy, DateModified, ModifiedBy, ASSOCSponsorDocId, GDLastTouched , 
+	sys_hash,
+	sys_capture_date
+)
+
+SELECT  
+		DOCID, AUDIT_ID, AUDIT_DATE, INDX, ASSOCNAM, ASSOCBC, ASSOCLICNUM, ASSOCSPEC, ASSOCISST, ASSOCID, PRACID, PRACSUBID, ASSOCFNAM, ASSOCLNAM, ASSOCMI, ASSOCCAQHCODESPEC, 
+                         ACTIVE_FLAG, DateCreated, CreatedBy, DateModified, ModifiedBy, ASSOCSponsorDocId, GDLastTouched ,
+	sys_hash,
+	sys_capture_date
+FROM
+	src_ucent_DOCDB_ASSOC;

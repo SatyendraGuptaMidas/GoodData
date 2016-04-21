@@ -1,0 +1,6 @@
+TRUNCATE TABLE src_Ucent_MASTER_LOG_RCPT_TYPE;
+
+COPY src_Ucent_MASTER_LOG_RCPT_TYPE FROM LOCAL './data/gooddata/src_Ucent_MASTER_LOG_RCPT_TYPE.csv' 
+WITH PARSER GdcCsvParser() DELIMITER ',' 
+ESCAPE AS '"' ENCLOSED BY '"' SKIP 1 EXCEPTIONS './data/except.log' 
+REJECTED DATA './data/rejects.log' ABORT ON ERROR;

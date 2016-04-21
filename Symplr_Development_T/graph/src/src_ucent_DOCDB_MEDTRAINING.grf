@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="admin" created="Tue Apr 05 12:38:25 IST 2016" guiVersion="3.4.4.P" id="1459851568570" licenseType="Commercial" modified="Wed Apr 06 21:25:51 IST 2016" modifiedBy="admin" name="src_ucent_cvolog" revision="1.3" showComponentDetails="true">
+<Global>
+<Metadata id="Metadata0">
+<Record fieldDelimiter="," name="read_DOCDB_MEDTRAINING" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" name="Docid" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="TrainingType" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="Institution" nullable="true" shift="0" size="100" type="string"/>
+<Field eofAsDelimiter="false" name="InstAdd1" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="InstAdd2" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="InstCity" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="InstState" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="InstZip" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="InstCnty" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="InstCntry" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="InstType" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="InstDirector" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="Specialty" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="InstFax" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="InstFaxAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="InstPH" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="InstPhAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="FromDay" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="FromMo" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="FromYr" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="ToDay" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="ToMo" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="ToYr" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="GradDay" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="GradMo" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="GradYr" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="ForeignMedYN" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="ECFMGNum" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="CAQHCode" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="Major" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="Degree" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="ECFMGFmDay" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="ECFMGFmMo" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="ECFMGFmYr" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="FifthIssueDay" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="FifthIssueMo" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="FifthIssueYr" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="FifthNum" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="Indx" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="Sort_Order" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="Audit_ID" nullable="true" shift="0" size="7" type="string"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="Audit_Date" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="StartDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="FinishDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="GradDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="FifthPathDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="ECFMGDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="InstPhoneNbr" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="InstFaxNbr" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="Email" nullable="true" shift="0" size="100" type="string"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="DateCreated" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="CreatedBy" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="DateModified" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="ModifiedBy" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="Active_Flag" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="ResearchPosition_YN" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="InstPGYLevelStarted" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="InstPGYLevelCompleted" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="true" format="yyyy-MM-dd HH:mm:ss" name="GDLastTouched" nullable="true" shift="0" size="23" type="date"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata1" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," name="write_DOCDB_MEDTRAINING" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" name="Docid" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="TrainingType" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="Institution" nullable="true" shift="0" size="100" type="string"/>
+<Field eofAsDelimiter="false" name="InstAdd1" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="InstAdd2" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="InstCity" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="InstState" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="InstZip" nullable="true" shift="0" size="10" type="string"/>
+<Field eofAsDelimiter="false" name="InstCnty" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="InstCntry" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="InstType" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="InstDirector" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="Specialty" nullable="true" shift="0" size="70" type="string"/>
+<Field eofAsDelimiter="false" name="InstFax" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="InstFaxAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="InstPH" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="InstPhAC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="FromDay" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="FromMo" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="FromYr" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="ToDay" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="ToMo" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="ToYr" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="GradDay" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="GradMo" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="GradYr" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="ForeignMedYN" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="ECFMGNum" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="CAQHCode" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="Major" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="Degree" nullable="true" shift="0" size="30" type="string"/>
+<Field eofAsDelimiter="false" name="ECFMGFmDay" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="ECFMGFmMo" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="ECFMGFmYr" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="FifthIssueDay" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="FifthIssueMo" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="FifthIssueYr" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="FifthNum" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="Indx" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="Sort_Order" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="Audit_ID" nullable="true" shift="0" size="7" type="string"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="Audit_Date" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="StartDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="FinishDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="GradDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="FifthPathDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="ECFMGDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="InstPhoneNbr" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="InstFaxNbr" nullable="true" shift="0" size="20" type="string"/>
+<Field eofAsDelimiter="false" name="Email" nullable="true" shift="0" size="100" type="string"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="DateCreated" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="CreatedBy" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="DateModified" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="ModifiedBy" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="Active_Flag" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="ResearchPosition_YN" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" name="InstPGYLevelStarted" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="InstPGYLevelCompleted" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="true" format="yyyy-MM-dd HH:mm:ss" name="GDLastTouched" nullable="true" shift="0" size="23" type="date"/>
+<Field name="sys_hash" type="string"/>
+<Field eofAsDelimiter="true" name="sys_capture_date" type="string"/>
+</Record>
+</Metadata>
+<Connection dbConfig="${PROJECT}/symplr_mssql_server.cfg" id="JDBC0" type="JDBC"/>
+<Connection dbConfig="${PROJECT}/sympr_gd_ads_connection.cfg" id="JDBC1" type="JDBC"/>
+<Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="113" id="Note0" textColorB="0" textColorG="0" textColorR="0" textFontSize="8" title="UCENT" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="10" width="363" x="70" y="328">
+<attr name="text"><![CDATA[SQL Table:   DOCDB_MEDTRAINING
+
+Good Data Tables:
+Source:		src_ucent_DOCDB_MEDTRAINING
+Stagging:	stg_ucent_DOCDB_MEDTRAINING]]></attr>
+</Note>
+<Dictionary/>
+</Global>
+<Phase number="0">
+<Node dbConnection="JDBC0" enabled="enabled" guiName="read DOCDB_MEDTRAINING" guiX="70" guiY="54" id="READ_DOCDB_MEDTRAINING" type="DB_INPUT_TABLE" url="${PROJECT}/sql/read/read_ucent_DOCDB_MEDTRAINING.sql"/>
+<Node enabled="enabled" guiName="Reformat" guiX="339" guiY="54" id="REFORMAT" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	string concat="";
+	$out.0.* = $in.0.*;
+	for(integer i=0;i<length($in.0);i++) {
+    	concat = concat + getValueAsString($in.0,i);
+	}
+	$out.0.sys_hash = byte2hex(md5(concat));
+	$out.0.sys_capture_date = date2str(today(),"yyyy-MM-dd HH:mm:ss");
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" fileURL="${DATA_GOODDATA_DIR}/src_ucent_DOCDB_MEDTRAINING.csv" guiName="write DOCDB_MEDTRAINING" guiX="560" guiY="54" id="WRITE_DOCDB_MEDTRAINING" makeDirs="true" outputFieldNames="true" quotedStrings="true" type="DATA_WRITER"/>
+<Edge debugMode="true" fromNode="READ_DOCDB_MEDTRAINING:0" guiBendpoints="" guiRouter="Manhattan" id="Edge2" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (out)" toNode="REFORMAT:0"/>
+<Edge debugMode="true" fromNode="REFORMAT:0" guiBendpoints="" guiRouter="Manhattan" id="Edge1" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 0 (out)" toNode="WRITE_DOCDB_MEDTRAINING:0"/>
+</Phase>
+<Phase number="1">
+<Node dbConnection="JDBC1" enabled="enabled" guiName="copy data to src_ucent_DOCDB_MEDTRAINING ads table" guiX="70" guiY="152" id="COPY_DATA_TO_SRC_UCENT_DOCDB_MEDTRAINING_ADS_TABLE" type="DB_EXECUTE" url="${PROJECT}/sql/src/src_ucent_DOCDB_MEDTRAINING.sql"/>
+</Phase>
+<Phase number="2">
+<Node dbConnection="JDBC1" enabled="enabled" guiName="copy data to stg_ucent_DOCDB_MEDTRAINING ads table" guiX="70" guiY="245" id="COPY_DATA_TO_STG_UCENT_DOCDB_MEDTRAINING_ADS_TABLE" type="DB_EXECUTE" url="${PROJECT}/sql/stg/stg_ucent_DOCDB_MEDTRAINING.sql"/>
+</Phase>
+</Graph>

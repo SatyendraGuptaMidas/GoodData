@@ -1,0 +1,24 @@
+SELECT 
+PrivilegeLog_ID
+      ,FacilityID
+      ,ItemDescription
+      ,ProviderID
+      ,ProviderName
+      ,DateAdded
+      ,LastChangeDate
+      ,Status
+      ,RequestType
+      ,AUDIT_ID
+      ,ReprivMode
+      ,Audit_date
+      ,ScheduledGrantDate
+      ,ScheduledPrivStatus
+      ,ScheduledPrivStatusLimit
+      ,ScheduledExpirationDate
+      ,IsLastRapptDateChange
+      ,IsNextRapptDateChange
+      ,GDLastTouched
+
+FROM 
+    ${db_epr}.${schema}.PRIV_PrivilegeLog
+;

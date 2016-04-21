@@ -1,0 +1,51 @@
+TRUNCATE TABLE stg_enrollmentportal_EpisodeDefaultSections;
+
+INSERT /*+direct*/ INTO stg_enrollmentportal_EpisodeDefaultSections
+(
+	ID
+      ,SectionName
+      ,bIsActive
+      ,TableName
+      ,RankID
+      ,bIsMultipage
+      ,ListColumnOne
+      ,ListColumnTwo
+      ,ListColumnThree
+      ,IDColumn
+      ,OrderByColumn
+      ,ListColumnOneDesc
+      ,ListColumnTwoDesc
+      ,ListColumnThreeDesc
+      ,ListColumnThreeType
+      ,ListColumnTwoType
+      ,ListColumnOneType
+      ,ParentID
+      ,GDLastTouched
+	,sys_hash,
+	sys_capture_date
+)
+
+SELECT
+	 ID
+      ,SectionName
+      ,bIsActive
+      ,TableName
+      ,RankID
+      ,bIsMultipage
+      ,ListColumnOne
+      ,ListColumnTwo
+      ,ListColumnThree
+      ,IDColumn
+      ,OrderByColumn
+      ,ListColumnOneDesc
+      ,ListColumnTwoDesc
+      ,ListColumnThreeDesc
+      ,ListColumnThreeType
+      ,ListColumnTwoType
+      ,ListColumnOneType
+      ,ParentID
+      ,GDLastTouched
+	,sys_hash,
+	sys_capture_date
+FROM
+	src_enrollmentportal_EpisodeDefaultSections;

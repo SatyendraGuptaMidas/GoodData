@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Graph author="wenzhang" created="Tue Mar 15 17:21:39 PDT 2016" guiVersion="3.4.4.P" id="1458576433522" licenseCode="CLP1DGOODD71636137BY" licenseType="Commercial" modified="Wed Apr 06 19:46:03 IST 2016" modifiedBy="admin" name="src_enrollmentportal_eplog" revision="1.50" showComponentDetails="true">
+<Global>
+<Metadata id="Metadata0">
+<Record fieldDelimiter="," name="read_FacilitySignatureBlock" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" length="18" name="SignatureBlockID" nullable="true" scale="0" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" name="FacilityID" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="SignatureBlockArea" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="SignatureBlockType" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="SignatureBlockDescription" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="SortOrder" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="AUDIT_ID" nullable="true" shift="0" size="7" type="string"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="Audit_date" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="true" format="yyyy-MM-dd HH:mm:ss" name="GDLastTouched" nullable="true" shift="0" size="23" type="date"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata1" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," name="write_FacilitySignatureBlock" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" length="18" name="SignatureBlockID" nullable="true" scale="0" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" name="FacilityID" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="SignatureBlockArea" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="SignatureBlockType" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="SignatureBlockDescription" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="SortOrder" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="AUDIT_ID" nullable="true" shift="0" size="7" type="string"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="Audit_date" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="true" format="yyyy-MM-dd HH:mm:ss" name="GDLastTouched" nullable="true" shift="0" size="23" type="date"/>
+<Field name="sys_hash" type="string"/>
+<Field eofAsDelimiter="true" name="sys_capture_date" type="string"/>
+</Record>
+</Metadata>
+<Connection database="MSSQL" dbURL="jdbc:jtds:sqlserver://${mssql_server}:1433/" id="JDBC0" jdbcSpecific="MSSQL" name="symplr_mssql_server" password="${mssql_password}" passwordEncrypted="false" threadSafeConnection="true" type="JDBC" user="${mssql_username}"/>
+<Connection database="DSS" dbURL="jdbc:gdc:datawarehouse://secure.gooddata.com/gdc/datawarehouse/instances/zb9c07780fdc2fbe5eeced558233ca4b" id="JDBC1" jdbcSpecific="DSS" name="sympr_gd_ads_connection" password="${ads_password}" passwordEncrypted="false" threadSafeConnection="true" type="JDBC" user="${ads_username}"/>
+<Property id="GraphParameter0" name="ads_password" value="Y4MyTEP54dbBdkJy"/>
+<Property id="GraphParameter1" name="ads_username" value="ps-etl+symplr@gooddata.com"/>
+<Property id="GraphParameter2" name="DATA_DIR" value="${PROJECT}/data"/>
+<Property id="GraphParameter3" name="DATA_GOODDATA_DIR" value="${PROJECT}/data/gooddata"/>
+<Property id="GraphParameter4" name="DATA_SOURCE_DIR" value="${PROJECT}/data/source"/>
+<Property id="GraphParameter5" name="DATA_TMP_DIR" value="${PROJECT}/data/tmp"/>
+<Property id="GraphParameter6" name="DATA_TRANSFORM_DIR" value="${PROJECT}/data/transform"/>
+<Property id="GraphParameter7" name="db_ep" value="enrollmentportal"/>
+<Property id="GraphParameter8" name="db_epr" value="ucent"/>
+<Property id="GraphParameter9" name="db_hs" value="hortyspringer"/>
+<Property id="GraphParameter10" name="db_uc" value="universalcredentialing"/>
+<Property id="GraphParameter11" name="GDC_PROJECT_ID" value="j0pjb10ugs6jhbn0skdzubg2yaewjs3b"/>
+<Property id="GraphParameter12" name="GRAPH_DIR" value="${PROJECT}/graph"/>
+<Property id="GraphParameter13" name="META_DIR" value="${PROJECT}/meta"/>
+<Property id="GraphParameter14" name="MODEL_DIR" value="${PROJECT}/model"/>
+<Property id="GraphParameter15" name="mssql_password" value="Smoothambler10year"/>
+<Property id="GraphParameter16" name="mssql_server" value="70.42.3.239"/>
+<Property id="GraphParameter17" name="mssql_username" value="GoodData"/>
+<Property id="GraphParameter18" name="name" value="value"/>
+<Property id="GraphParameter19" name="PROJECT" value="."/>
+<Property id="GraphParameter20" name="schema" value="dbo"/>
+<Property id="GraphParameter21" name="TRANS_DIR" value="${PROJECT}/trans"/>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="177" id="Note0" textColorB="0" textColorG="0" textColorR="0" textFontSize="12" title="Load data to GoodData ADS" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="14" width="404" x="254" y="154">
+<attr name="text"><![CDATA[
+1)  Use the dbInputTable component to read tables/objects from the Symplr MS SQL server.
+2)  Use the csvWriter Component to write data to csv with two additiona fields (sys_hash and sys_capture_date).
+3)  Use the dbExecute component to copy/load CSV output to source table in ADS.
+4)  Use the dbExecute component to load data from source table to target table.
+]]></attr>
+</Note>
+<Dictionary/>
+</Global>
+<Phase number="0">
+<Node dbConnection="JDBC0" enabled="enabled" guiName="read mssql table" guiX="19" guiY="35" id="READ_MSSQL_TABLE" type="DB_INPUT_TABLE" url="${PROJECT}/sql/read/read_Ucent_FacilitySignatureBlock.sql"/>
+<Node enabled="enabled" guiName="Reformat" guiX="254" guiY="35" id="REFORMAT" type="REFORMAT">
+<attr name="transform"><![CDATA[function integer transform() {
+	string concat="";
+	$out.0.* = $in.0.*;
+	for(integer i=0;i<length($in.0);i++) {
+    	concat = concat + getValueAsString($in.0,i);
+	}
+	$out.0.sys_hash = byte2hex(md5(concat));
+	$out.0.sys_capture_date = date2str(today(),"yyyy-MM-dd HH:mm:ss");
+	return ALL;
+}]]></attr>
+</Node>
+<Node enabled="enabled" fileURL="${DATA_GOODDATA_DIR}/src_Ucent_FacilitySignatureBlock.csv" guiName="write data to csv" guiX="524" guiY="35" id="WRITE_DATA_TO_CSV" makeDirs="true" outputFieldNames="true" quotedStrings="true" type="DATA_WRITER"/>
+<Edge debugMode="true" fromNode="READ_MSSQL_TABLE:0" guiBendpoints="" guiRouter="Manhattan" id="Edge0" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (out)" toNode="REFORMAT:0"/>
+<Edge debugMode="true" fromNode="REFORMAT:0" guiBendpoints="" guiRouter="Manhattan" id="Edge1" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 0 (out)" toNode="WRITE_DATA_TO_CSV:0"/>
+</Phase>
+<Phase number="1">
+<Node dbConnection="JDBC1" enabled="enabled" guiName="copy data to src ads table" guiX="19" guiY="160" id="COPY_DATA_TO_SRC_ADS_TABLE" type="DB_EXECUTE" url="${PROJECT}/sql/src/src_Ucent_FacilitySignatureBlock.sql"/>
+</Phase>
+<Phase number="2">
+<Node dbConnection="JDBC1" enabled="enabled" guiName="copy data to stg ads table" guiX="19" guiY="246" id="COPY_DATA_TO_STG_ADS_TABLE" type="DB_EXECUTE" url="${PROJECT}/sql/stg/stg_Ucent_FacilitySignatureBlock.sql"/>
+</Phase>
+</Graph>

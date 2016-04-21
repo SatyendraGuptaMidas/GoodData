@@ -1,0 +1,40 @@
+SELECT Docid
+      ,TrainingType
+      ,Institution
+      ,InstAdd1
+      ,InstAdd2
+      ,InstCity
+      ,InstState
+      ,InstZip
+      ,InstCnty
+      ,InstCntry
+      ,InstType
+      ,InstDirector
+      ,Specialty
+      ,InstFax
+      ,InstFaxAC
+      ,InstPH
+      ,InstPhAC
+      ,FromDate
+      ,GradDate
+      ,ToDate
+      ,Major
+      ,Degree
+      ,Indx
+      ,Sort_Order
+      ,Audit_ID
+      ,Audit_Date
+      ,InstPhoneNbr
+      ,InstFaxNbr
+      ,DateCreated
+      ,CreatedBy
+      ,DateModified
+      ,ModifiedBy
+      ,Active_Flag
+      ,InstPGYLevelStarted
+      ,InstPGYLevelCompleted
+      ,GDLastTouched
+
+FROM 
+    ${db_epr}.${schema}.DOCDB_SecondaryEd
+;

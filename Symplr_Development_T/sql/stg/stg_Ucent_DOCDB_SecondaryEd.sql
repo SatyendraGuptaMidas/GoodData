@@ -1,0 +1,84 @@
+TRUNCATE TABLE stg_Ucent_DOCDB_SecondaryEd;
+
+INSERT /*+direct*/ INTO stg_Ucent_DOCDB_SecondaryEd
+(
+Docid
+      ,TrainingType
+      ,Institution
+      ,InstAdd1
+      ,InstAdd2
+      ,InstCity
+      ,InstState
+      ,InstZip
+      ,InstCnty
+      ,InstCntry
+      ,InstType
+      ,InstDirector
+      ,Specialty
+      ,InstFax
+      ,InstFaxAC
+      ,InstPH
+      ,InstPhAC
+      ,FromDate
+      ,GradDate
+      ,ToDate
+      ,Major
+      ,Degree
+      ,Indx
+      ,Sort_Order
+      ,Audit_ID
+      ,Audit_Date
+      ,InstPhoneNbr
+      ,InstFaxNbr
+      ,DateCreated
+      ,CreatedBy
+      ,DateModified
+      ,ModifiedBy
+      ,Active_Flag
+      ,InstPGYLevelStarted
+      ,InstPGYLevelCompleted
+      ,GDLastTouched
+	,sys_hash,
+	sys_capture_date
+)
+
+SELECT Docid
+      ,TrainingType
+      ,Institution
+      ,InstAdd1
+      ,InstAdd2
+      ,InstCity
+      ,InstState
+      ,InstZip
+      ,InstCnty
+      ,InstCntry
+      ,InstType
+      ,InstDirector
+      ,Specialty
+      ,InstFax
+      ,InstFaxAC
+      ,InstPH
+      ,InstPhAC
+      ,FromDate
+      ,GradDate
+      ,ToDate
+      ,Major
+      ,Degree
+      ,Indx
+      ,Sort_Order
+      ,Audit_ID
+      ,Audit_Date
+      ,InstPhoneNbr
+      ,InstFaxNbr
+      ,DateCreated
+      ,CreatedBy
+      ,DateModified
+      ,ModifiedBy
+      ,Active_Flag
+      ,InstPGYLevelStarted
+      ,InstPGYLevelCompleted
+      ,GDLastTouched
+	,sys_hash,
+	sys_capture_date
+FROM
+	src_Ucent_DOCDB_SecondaryEd;

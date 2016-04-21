@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="admin" created="Tue Apr 05 12:38:25 IST 2016" guiVersion="3.4.4.P" id="1459851568570" licenseType="Commercial" modified="Wed Apr 06 17:48:56 IST 2016" modifiedBy="admin" name="src_ucent_cvolog" revision="1.2" showComponentDetails="true">
+<Global>
+<Metadata id="Metadata0">
+<Record fieldDelimiter="," name="read_DOCDB_BOARDX" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" name="LEREXY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="LERNUM" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" length="11" name="INDX" nullable="true" scale="0" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" name="LERNAM" nullable="true" shift="0" size="100" type="string"/>
+<Field eofAsDelimiter="false" name="LERTYP" nullable="true" shift="0" size="200" type="string"/>
+<Field eofAsDelimiter="false" name="LERCRM" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LERCRD" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LERCRY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="LERST" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="DOCID" nullable="true" shift="0" size="7" type="string"/>
+<Field eofAsDelimiter="false" name="LERTSM" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LERTSD" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LERTSY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="LEREXM" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LEREXD" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="AUDIT_ID" nullable="true" shift="0" size="7" type="string"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="AUDIT_DATE" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="LERCERT" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="LERBCNSY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="LERBCNSD" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LERBCNSM" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LERBEY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="LERBEM" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LERBED" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LERBE" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="LERRCY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="LERRCM" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LERRCD" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LERBCNY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="LERBCND" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LERBCNM" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LERBC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="LERRCEXM" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LERRCEXD" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LERRCEXY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="LERRCEXD2" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="ACTIVE_FLAG" nullable="true" shift="0" size="22" type="string"/>
+<Field eofAsDelimiter="false" name="TAXONOMY" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="ident" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="Sort_Order" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="lerexpdate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="lerrcexpdate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="lerbeexpdate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="delflag" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="pagename" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="LERNOEXP" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="OrigTestDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="CertDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="CertExpDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="BoardSchedDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="RecertDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="RecertExpDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="ExamEligDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="ExamExpDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="DateCreated" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="CreatedBy" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="DateModified" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="ModifiedBy" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="LERBEYTimesTaken" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="LERBENWhy" nullable="true" shift="0" size="4000" type="string"/>
+<Field eofAsDelimiter="false" name="LERMOC" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="MocVerifyDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="true" format="yyyy-MM-dd HH:mm:ss" name="GDLastTouched" nullable="true" shift="0" size="23" type="date"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata1" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," name="write_DOCDB_BOARDX" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" name="LEREXY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="LERNUM" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" length="11" name="INDX" nullable="true" scale="0" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" name="LERNAM" nullable="true" shift="0" size="100" type="string"/>
+<Field eofAsDelimiter="false" name="LERTYP" nullable="true" shift="0" size="200" type="string"/>
+<Field eofAsDelimiter="false" name="LERCRM" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LERCRD" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LERCRY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="LERST" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="DOCID" nullable="true" shift="0" size="7" type="string"/>
+<Field eofAsDelimiter="false" name="LERTSM" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LERTSD" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LERTSY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="LEREXM" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LEREXD" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="AUDIT_ID" nullable="true" shift="0" size="7" type="string"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="AUDIT_DATE" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="LERCERT" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" name="LERBCNSY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="LERBCNSD" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LERBCNSM" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LERBEY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="LERBEM" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LERBED" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LERBE" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="LERRCY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="LERRCM" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LERRCD" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LERBCNY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="LERBCND" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LERBCNM" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LERBC" nullable="true" shift="0" size="3" type="string"/>
+<Field eofAsDelimiter="false" name="LERRCEXM" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LERRCEXD" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="LERRCEXY" nullable="true" shift="0" size="4" type="string"/>
+<Field eofAsDelimiter="false" name="LERRCEXD2" nullable="true" shift="0" size="2" type="string"/>
+<Field eofAsDelimiter="false" name="ACTIVE_FLAG" nullable="true" shift="0" size="22" type="string"/>
+<Field eofAsDelimiter="false" name="TAXONOMY" nullable="true" shift="0" size="25" type="string"/>
+<Field eofAsDelimiter="false" name="ident" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="Sort_Order" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="lerexpdate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="lerrcexpdate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="lerbeexpdate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="delflag" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="pagename" nullable="true" shift="0" size="50" type="string"/>
+<Field eofAsDelimiter="false" name="LERNOEXP" nullable="true" shift="0" size="1" type="string"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="OrigTestDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="CertDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="CertExpDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="BoardSchedDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="RecertDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="RecertExpDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="ExamEligDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="ExamExpDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="DateCreated" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="CreatedBy" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="DateModified" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="false" name="ModifiedBy" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="LERBEYTimesTaken" nullable="true" shift="0" size="10" type="integer"/>
+<Field eofAsDelimiter="false" name="LERBENWhy" nullable="true" shift="0" size="4000" type="string"/>
+<Field eofAsDelimiter="false" name="LERMOC" nullable="true" shift="0" size="15" type="string"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd HH:mm:ss" name="MocVerifyDate" nullable="true" shift="0" size="23" type="date"/>
+<Field eofAsDelimiter="true" format="yyyy-MM-dd HH:mm:ss" name="GDLastTouched" nullable="true" shift="0" size="23" type="date"/>
+<Field name="sys_hash" type="string"/>
+<Field eofAsDelimiter="true" name="sys_capture_date" type="string"/>
+</Record>
+</Metadata>
+<Connection dbConfig="${PROJECT}/symplr_mssql_server.cfg" id="JDBC0" type="JDBC"/>
+<Connection dbConfig="${PROJECT}/sympr_gd_ads_connection.cfg" id="JDBC1" type="JDBC"/>
+<Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="113" id="Note0" textColorB="0" textColorG="0" textColorR="0" textFontSize="8" title="UCENT" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="10" width="363" x="70" y="328">
+<attr name="text"><![CDATA[SQL Table:   DOCDB_BOARDX
+
+Good Data Tables:
+Source:		src_ucent_DOCDB_BOARDX
+Stagging:	stg_ucent_DOCDB_BOARDX]]></attr>
+</Note>
+<Dictionary/>
+</Global>
+<Phase number="0">
+<Node dbConnection="JDBC0" enabled="enabled" guiName="read DOCDB_BOARDX" guiX="70" guiY="54" id="READ_DOCDB_BOARDX" type="DB_INPUT_TABLE" url="${PROJECT}/sql/read/read_ucent_DOCDB_BOARDX.sql"/>
+<Node enabled="enabled" guiName="Reformat" guiX="342" guiY="54" id="REFORMAT" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	string concat="";
+	$out.0.* = $in.0.*;
+	for(integer i=0;i<length($in.0);i++) {
+    	concat = concat + getValueAsString($in.0,i);
+	}
+	$out.0.sys_hash = byte2hex(md5(concat));
+	$out.0.sys_capture_date = date2str(today(),"yyyy-MM-dd HH:mm:ss");
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" fileURL="${DATA_GOODDATA_DIR}/src_ucent_DOCDB_BOARDX.csv" guiName="write DOCDB_BOARDX" guiX="561" guiY="54" id="WRITE_DOCDB_BOARDX" makeDirs="true" outputFieldNames="true" quotedStrings="true" type="DATA_WRITER"/>
+<Edge debugMode="true" fromNode="READ_DOCDB_BOARDX:0" guiBendpoints="" guiRouter="Manhattan" id="Edge2" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (out)" toNode="REFORMAT:0"/>
+<Edge debugMode="true" fromNode="REFORMAT:0" guiBendpoints="" guiRouter="Manhattan" id="Edge1" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 0 (out)" toNode="WRITE_DOCDB_BOARDX:0"/>
+</Phase>
+<Phase number="1">
+<Node dbConnection="JDBC1" enabled="enabled" guiName="copy data to src_ucent_DOCDB_BOARDX ads table" guiX="70" guiY="152" id="COPY_DATA_TO_SRC_UCENT_DOCDB_BOARDX_ADS_TABLE" type="DB_EXECUTE" url="${PROJECT}/sql/src/src_ucent_DOCDB_BOARDX.sql"/>
+</Phase>
+<Phase number="2">
+<Node dbConnection="JDBC1" enabled="enabled" guiName="copy data to stg_ucent_DOCDB_BOARDX ads table" guiX="70" guiY="245" id="COPY_DATA_TO_STG_UCENT_DOCDB_BOARDX_ADS_TABLE" type="DB_EXECUTE" url="${PROJECT}/sql/stg/stg_ucent_DOCDB_BOARDX.sql"/>
+</Phase>
+</Graph>

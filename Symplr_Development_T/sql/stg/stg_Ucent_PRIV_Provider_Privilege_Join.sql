@@ -1,0 +1,49 @@
+TRUNCATE TABLE stg_Ucent_PRIV_Provider_Privilege_Join;
+
+INSERT /*+direct*/ INTO stg_Ucent_PRIV_Provider_Privilege_Join
+(
+ProviderPrivilegeJoin_ID
+      ,FacilityID
+      ,Provider_ID
+      ,BoardIndx
+      ,CertIndx
+      ,Privilege_ID
+      ,Core_Special
+      ,PrivilegeStatus
+      ,PrivilegeType
+      ,DateGranted
+      ,ExpirationDate
+      ,Audit_id
+      ,Audit_date
+      ,Action_Type
+      ,Privilege
+      ,SortOrder
+      ,HSPrivilegeID
+      ,GDLastTouched
+	,sys_hash,
+	sys_capture_date
+)
+
+SELECT
+ProviderPrivilegeJoin_ID
+      ,FacilityID
+      ,Provider_ID
+      ,BoardIndx
+      ,CertIndx
+      ,Privilege_ID
+      ,Core_Special
+      ,PrivilegeStatus
+      ,PrivilegeType
+      ,DateGranted
+      ,ExpirationDate
+      ,Audit_id
+      ,Audit_date
+      ,Action_Type
+      ,Privilege
+      ,SortOrder
+      ,HSPrivilegeID
+      ,GDLastTouched
+	,sys_hash,
+	sys_capture_date
+FROM
+	src_Ucent_PRIV_Provider_Privilege_Join;

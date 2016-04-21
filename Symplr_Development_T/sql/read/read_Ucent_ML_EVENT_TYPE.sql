@@ -1,0 +1,11 @@
+SELECT 
+ML_EVENT_TYPE_ID
+      ,ML_EVENT_TYPE_DESCRIPTION
+      ,ML_EVENT_TYPE_NEXTSTEP
+      ,GRID_DESCRIPTION
+      ,AUDIT_ID
+      ,GDLastTouched
+
+FROM 
+    ${db_epr}.${schema}.ML_EVENT_TYPE
+;

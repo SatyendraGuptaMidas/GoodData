@@ -1,0 +1,23 @@
+SELECT 
+	 ClientSettingsID
+      ,ClientApp
+      ,PDSN
+      ,VDSN
+      ,DBType
+      ,SSLClient
+      ,StartPage
+      ,ClientType
+      ,Logo
+      ,DemoWelcomeLogo
+      ,Banner
+      ,Defaultpage
+      ,HomeTab
+      ,FuseAction
+      ,Extended
+      ,AUDIT_ID
+      ,PrivLite_YN
+      ,LDAPClient_YN
+ 
+FROM 
+    ${db_uc}.${schema}.ClientSettings
+;

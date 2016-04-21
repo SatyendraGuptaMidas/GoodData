@@ -1,0 +1,40 @@
+SELECT DOCID
+      ,PMORG
+      ,PMCITY
+      ,PMST
+      ,PMFMM
+      ,PMFMD
+      ,PMFMY
+      ,INDX
+      ,AUDIT_ID
+      ,AUDIT_DATE
+      ,PMPH
+      ,PMPHAC
+      ,PMTOM
+      ,PMTOD
+      ,PMTOY
+      ,PMOFCHLD
+      ,PMPOS
+      ,ACTIVE_FLAG
+      ,PMZIP
+      ,PMEXM
+      ,PMEXD
+      ,PMEXY
+      ,PMADD1
+      ,PMADD2
+      ,PMCNTY
+      ,PMCNTRY
+      ,Sort_Order
+      ,Ident
+      ,FromDate
+      ,ToDate
+      ,DateCreated
+      ,CreatedBy
+      ,DateModified
+      ,ModifiedBy
+      ,PMPHONENBR
+      ,GDLastTouched
+
+FROM 
+    ${db_epr}.${schema}.DOCDB_PRORGX
+;
